@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #02ffea28;
+  background-color: white;
 }
 
 .App-logo {
@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #15978c;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
 }
 
 @keyframes App-logo-spin {
@@ -36,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.bg-img{
+  background-image: url("/src/connemara-wild-atlantic.jpg");
+}
+.container {
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+
 }

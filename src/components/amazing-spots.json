@@ -1,0 +1,28 @@
+{"type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": { "name ": "urn:ogc:def:crs:OGC:1.3:CRS84"}
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "NAME": "Slieve League, Co. Donegal",
+                "ADDRESS": " Shanbally, County Donegal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [54.64064071311653, -8.682627976118026]
+            },
+            "type": "Feature",
+            "properties": {
+                "NAME": "Downpatrick Head, Co. Mayo",
+                "ADDRESS": "Knockaun, County Mayo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [54.324035765593486, -9.343760076824129]
+            }
+        }
+    ]
+    }
