@@ -7,11 +7,7 @@ import * as mapData from "./amazing-spots.json";
 function GMap(){
     return(
     <GoogleMap defaultZoom={8} defaultCenter={{lat: 53.270668, lng: -9.056790}}>
-    {mapData.features.map((spot) =>
-        <Marker key={spot.properties.ADDRESS}
-            postion={{
-            lat: spot.geometry.coordinates[1],
-            lng: spot.geometry.coordinates[0]}}/>)}
+   
     </GoogleMap>);
 }
 //wrap a few layers around the map

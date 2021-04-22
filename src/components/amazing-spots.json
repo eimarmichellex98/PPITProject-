@@ -1,28 +1,258 @@
-{"type": "FeatureCollection",
-    "crs": {
-        "type": "name",
-        "properties": { "name ": "urn:ogc:def:crs:OGC:1.3:CRS84"}
-    },
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "NAME": "Slieve League, Co. Donegal",
-                "ADDRESS": " Shanbally, County Donegal"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [54.64064071311653, -8.682627976118026]
-            },
-            "type": "Feature",
-            "properties": {
-                "NAME": "Downpatrick Head, Co. Mayo",
-                "ADDRESS": "Knockaun, County Mayo"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [54.324035765593486, -9.343760076824129]
-            }
+{
+    "currentVersion": 10.41,
+    "id": 5,
+    "name": "Coastal waterbodies",
+    "type": "Feature Layer",
+    "description": "{    \"canDownload\": true,    \"report\": {        \"isAvailable\": false,        \"reportLink\": \"\"    },    \"metadata\": {        \"isAvailable\": false,        \"metadataLink\": \"\"    }}",
+    "geometryType": "esriGeometryPolygon",
+    "copyrightText": "",
+    "parentLayer": null,
+    "subLayers": [],
+    "minScale": 0,
+    "maxScale": 0,
+    "drawingInfo": {
+     "renderer": {
+      "type": "simple",
+      "symbol": {
+       "type": "esriSFS",
+       "style": "esriSFSSolid",
+       "color": [
+        0,
+        112,
+        255,
+        255
+       ],
+       "outline": {
+        "type": "esriSLS",
+        "style": "esriSLSSolid",
+        "color": [
+         0,
+         38,
+         115,
+         255
+        ],
+        "width": 0.4
+       }
+      },
+      "label": "",
+      "description": ""
+     },
+     "transparency": 0,
+     "labelingInfo": [
+      {
+       "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+       "where": null,
+       "labelExpression": "[NAME]",
+       "useCodedValues": true,
+       "symbol": {
+        "type": "esriTS",
+        "color": [
+         0,
+         76,
+         115,
+         255
+        ],
+        "backgroundColor": null,
+        "borderLineColor": null,
+        "borderLineSize": null,
+        "verticalAlignment": "bottom",
+        "horizontalAlignment": "center",
+        "rightToLeft": false,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "kerning": true,
+        "haloColor": null,
+        "haloSize": null,
+        "font": {
+         "family": "Arial",
+         "size": 9,
+         "style": "normal",
+         "weight": "bold",
+         "decoration": "none"
         }
-    ]
+       },
+       "minScale": 150000,
+       "maxScale": 0
+      }
+     ]
+    },
+    "defaultVisibility": false,
+    "extent": {
+     "xmin": 13666.349799999967,
+     "ymin": 14418.346300000325,
+     "xmax": 370357.50850000046,
+     "ymax": 461822.04289999977,
+     "spatialReference": {
+      "wkid": 29900,
+      "latestWkid": 29902
+     }
+    },
+    "hasAttachments": false,
+    "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+    "displayField": "NAME",
+    "typeIdField": null,
+    "fields": [
+     {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+     },
+     {
+      "name": "EU_CD",
+      "type": "esriFieldTypeString",
+      "alias": "European Code",
+      "length": 24,
+      "domain": null
+     },
+     {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Name",
+      "length": 100,
+      "domain": null
+     },
+     {
+      "name": "DIST_CD",
+      "type": "esriFieldTypeString",
+      "alias": "River Basin District",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "Shape",
+      "type": "esriFieldTypeGeometry",
+      "alias": "Shape",
+      "domain": null
+     },
+     {
+      "name": "AreaHectare",
+      "type": "esriFieldTypeDouble",
+      "alias": "AreaHectare",
+      "domain": null
+     },
+     {
+      "name": "AreaKm2",
+      "type": "esriFieldTypeDouble",
+      "alias": "AreaKm2",
+      "domain": null
+     },
+     {
+      "name": "LocalAuthority",
+      "type": "esriFieldTypeString",
+      "alias": "LocalAuthority",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "Intercalibration",
+      "type": "esriFieldTypeInteger",
+      "alias": "Intercalibration",
+      "domain": null
+     },
+     {
+      "name": "AdjacentHydrometricArea",
+      "type": "esriFieldTypeString",
+      "alias": "AdjacentHydrometricArea",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "Easting",
+      "type": "esriFieldTypeDouble",
+      "alias": "Easting",
+      "domain": null
+     },
+     {
+      "name": "Northing",
+      "type": "esriFieldTypeDouble",
+      "alias": "Northing",
+      "domain": null
+     },
+     {
+      "name": "DonorWaterBody",
+      "type": "esriFieldTypeString",
+      "alias": "DonorWaterBody",
+      "length": 24,
+      "domain": null
+     },
+     {
+      "name": "Modified",
+      "type": "esriFieldTypeString",
+      "alias": "Modified",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "Artificial",
+      "type": "esriFieldTypeString",
+      "alias": "Artificial",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "SYSTEM",
+      "type": "esriFieldTypeString",
+      "alias": "SYSTEM",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "Category",
+      "type": "esriFieldTypeString",
+      "alias": "Category",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "ProtectedAreaAssoc",
+      "type": "esriFieldTypeString",
+      "alias": "ProtectedAreaAssoc",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "WISEReferenceData",
+      "type": "esriFieldTypeString",
+      "alias": "WISEReferenceData",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "ProcessingStatus",
+      "type": "esriFieldTypeString",
+      "alias": "ProcessingStatus",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "Transboundary",
+      "type": "esriFieldTypeInteger",
+      "alias": "Transboundary",
+      "domain": null
+     }
+    ],
+    "indexes": null,
+    "relationships": [],
+    "canModifyLayer": false,
+    "canScaleSymbols": false,
+    "hasLabels": true,
+    "capabilities": "Map,Query,Data",
+    "maxRecordCount": 1000,
+    "supportsStatistics": true,
+    "supportsAdvancedQueries": true,
+    "supportedQueryFormats": "JSON, AMF, geoJSON",
+    "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+    "useStandardizedQueries": true,
+    "advancedQueryCapabilities": {
+     "useStandardizedQueries": true,
+     "supportsStatistics": true,
+     "supportsOrderBy": true,
+     "supportsDistinct": true,
+     "supportsPagination": true,
+     "supportsTrueCurve": true,
+     "supportsReturningQueryExtent": true,
+     "supportsQueryWithDistance": true
     }
+   }

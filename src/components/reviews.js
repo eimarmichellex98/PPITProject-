@@ -29,8 +29,7 @@ export class Reviews extends React.Component{
            <div className="Review" class="bg-img">
                 <div class="container">
                 <h4>Please tell us about your experience</h4>
-                <br/>
-                <textarea type="text" rows="5" onChange={this.handleText} id="inputText"></textarea>
+                <textarea type="text" cols ="40" rows="30" onChange={this.handleText} id="inputText"></textarea>
                 <br/>
                 <button onClick={this.handleSubmit}>Submit</button>
                 </div>   

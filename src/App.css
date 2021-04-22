@@ -37,13 +37,21 @@
     transform: rotate(360deg);
   }
 }
+
 .bg-img{
-  background-image: url("/src/connemara-wild-atlantic.jpg");
+  background-image: url("/src/landscape-hd-1.jpg");
 }
 .container {
-  right: 0;
-  margin: 20px;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 300px;
   padding: 16px;
-
+}
+.container2 {
+  
+  margin-left:30%;
+  margin-right: auto;
+  max-width: 500px;
+  padding: 16px;
 }
