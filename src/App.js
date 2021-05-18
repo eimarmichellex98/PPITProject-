@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import React, { Component } from 'react';
 import './App.css';
 import { Checklist } from './components/checklist';
-import { Map } from './components/map';
+import Map from './components/map';
 import { Reviews } from './components/reviews';
 import { Button} from 'react-bootstrap';//will allow user to switch component
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
