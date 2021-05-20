@@ -35,7 +35,7 @@ export class Reviews extends React.Component{
 
             fetchedData.forEach( review => {
                 newReviews.push((
-                    <div className="bg-white border border-black rounded-xl border-opacity-40 px-6 pt-2 pb-2 shadow-lg w-72 max-w-96" style={{minHeight: "7rem"}}>
+                    <div className="bg-white border border-black rounded-xl border-opacity-40 px-6 pt-2 pb-2 shadow-lg xl:w-62 2xl:w-68 max-w-96 text-sm lg:text-base" style={{minHeight: "7rem"}}>
                         <span>{review?.val() ?? "undefined"}</span>
                     </div>
                 ))
@@ -64,7 +64,7 @@ export class Reviews extends React.Component{
 					</form>
 				</div>
 
-				<div className="grid grid-cols-3 gap-4">
+				<div className="grid justify-center grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-4">
                     { this.state.reviews }
                 </div>
 			</div>
