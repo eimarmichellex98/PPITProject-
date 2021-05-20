@@ -50,7 +50,7 @@ export class Reviews extends React.Component{
     //comment section where review can be left and then is stored in firebase
     render(){
         return(
-			<div className="flex px-52 text-left">
+			<div className="flex md:px-4 lg:px-52 text-left">
 				<div className="mr-8">
 					<form>
 						<h1 className="text-xl pb-2 text-gray-800">Tell us about your experience</h1>
